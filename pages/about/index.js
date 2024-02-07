@@ -105,7 +105,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then,
+            5 years ago, I began freelancing as a developer. Since then,
             I&apos;ve done remote work for agencies, consulted for startups, and
             collaborated on digital products for business and consumer use.
           </motion.p>
@@ -171,9 +171,10 @@ const About = () => {
                 <div
                   key={itemIndex}
                   className={`${
-                    index === itemIndex &&
-                    "text-accent after:bg-[red] after:w-[100%] after:transition-all after:duration-300"
-                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
+                    index === itemIndex
+                      ? "underline-active text-accent after:w-[100%] after:duration-500"
+                      : "underline-inactive "
+                  } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:absolute after:-bottom-1 after:left-0`}
                   onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}

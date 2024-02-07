@@ -5,13 +5,13 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
-          link: "/thumb1.jpg",
+          path: "/1.png",
+          link: "https://react-turkmen-music-app.vercel.app/",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
-          link: "/thumb2.jpg",
+          path: "/Mntn.jpg",
+          link: "/#",
         },
         {
           title: "title",
@@ -82,7 +82,7 @@ const WorkSlider = () => {
           <SwiperSlide key={index}>
             <div
               key={index}
-              className=" grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer"
+              className=" grid grid-cols-2 xl:fix gap-4 cursor-pointer"
             >
               {slide.images.map((image, index) => {
                 return (

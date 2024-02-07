@@ -17,6 +17,14 @@
   color: #f13024;
 }
 
+.underline-active::after {
+  background-color: #f13024; /* Используйте вашу переменную или конкретное значение цвета */
+}
+
+.underline-inactive::after {
+  background-color: white;
+}
+
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
@@ -46,5 +54,8 @@
   }
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
+  }
+  .fix {
+    grid-template-rows: repeat(2, minmax(0, 200px));
   }
 }

@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import ParticlesContainer from "../components/ParticlesContainer"
+// import ParticlesContainer from "../components/ParticlesContainer"
 import ProjectsBtn from "../components/ProjectsBtn"
 import Avatar from "../components/Avatar"
 
@@ -28,12 +28,13 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-10"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ex
-            qui enim cupiditate voluptates eveniet, consequatur molestiae
-            deserunt aspernatur! Explicabo earum aperiam expedita dolor maxime
-            error officiis mollitia dolorem obcaecati?
+            The activities of Medet-Nurmyradov are aimed at developing websites
+            and mobile phones. applications, implementation of electronic
+            document management, automation of enterprises, supply and
+            implementation of server equipment. One of the buisness promising
+            areas is work in the implementation of cybersecurity solutions.
           </motion.p>
           <div className="flex justify-center xl:hidden">
             <ProjectsBtn />
@@ -52,15 +53,15 @@ const Home = () => {
 
       <div className="w-full h-full absolute right-0 bottom-0">
         {/* bg-image */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
-        <ParticlesContainer />
+        <div className="bg-none xl:bg-none xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
+        {/* <ParticlesContainer /> */}
         <motion.div
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:-bottom-100 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>
