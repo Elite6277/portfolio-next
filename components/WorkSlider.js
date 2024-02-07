@@ -50,21 +50,21 @@ const workSlides = {
       ],
     },
   ],
-};
+}
 
-import {Swiper, SwiperSlide} from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
 
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
+import "swiper/css"
+import "swiper/css/free-mode"
+import "swiper/css/pagination"
 
-import {Pagination} from "swiper";
+import { Pagination } from "swiper"
 
 // icons
-import {BsArrowRight} from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs"
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
 
 const WorkSlider = () => {
   return (
@@ -82,7 +82,7 @@ const WorkSlider = () => {
           <SwiperSlide key={index}>
             <div
               key={index}
-              className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer"
+              className=" grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer"
             >
               {slide.images.map((image, index) => {
                 return (
@@ -121,14 +121,14 @@ const WorkSlider = () => {
                       </Link>
                     </div>
                   </div>
-                );
+                )
               })}
             </div>
           </SwiperSlide>
-        );
+        )
       })}
     </Swiper>
-  );
-};
+  )
+}
 
-export default WorkSlider;
+export default WorkSlider
