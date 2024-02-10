@@ -30,11 +30,11 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-10"
           >
-            The activities of Medet-Nurmyradov are aimed at developing websites
-            and mobile phones. applications, implementation of electronic
-            document management, automation of enterprises, supply and
-            implementation of server equipment. One of the buisness promising
-            areas is work in the implementation of cybersecurity solutions.
+            My activity is aimed at developing websites and mobile phones.
+            applications, implementation of electronic document management,
+            enterprise automation, supply and implementation of server
+            equipment. One of the promising areas of business is the
+            implementation of cybersecurity solutions.
           </motion.p>
           <div className="flex justify-center xl:hidden">
             <ProjectsBtn />

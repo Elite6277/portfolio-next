@@ -1,9 +1,9 @@
-import WorkSlider from "../../components/WorkSlider";
-import Circles from "../../components/Circles";
-import Bulb from "../../components/Bulb";
+import WorkSlider from "../../components/WorkSlider"
+import Circles from "../../components/Circles"
+import Bulb from "../../components/Bulb"
 
-import {motion} from "framer-motion";
-import {fadeIn} from "../../variants";
+import { motion } from "framer-motion"
+import { fadeIn } from "../../variants"
 
 const Work = () => {
   return (
@@ -29,10 +29,10 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
+              {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
               animi quasi nisi voluptates sunt quod soluta sint quo illum
               quibusdam sed delectus recusandae aut libero, iste numquam
-              deserunt neque rem.
+              deserunt neque rem. */}
             </motion.p>
           </div>
           <motion.div
@@ -49,7 +49,7 @@ const Work = () => {
       </div>
       <Bulb />
     </div>
-  );
-};
+  )
+}
 
-export default Work;
+export default Work

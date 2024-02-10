@@ -55,7 +55,7 @@
   .textarea {
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
-  .fix {
-    grid-template-rows: repeat(2, minmax(0, 200px));
-  }
+  /* .fix {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  } */
 }

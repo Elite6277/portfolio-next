@@ -17,30 +17,30 @@ import { FreeMode, Pagination } from "swiper"
 
 // data
 const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  // {
+  //   icon: <RxCrop />,
+  //   title: "Branding",
+  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  // },
   {
     icon: <RxPencil2 />,
     title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Make design for you project.",
   },
   {
     icon: <RxDesktop />,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Process of creating a Web-site or Web-application. ",
   },
   {
     icon: <RxReader />,
     title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Fill you site with text",
   },
   {
     icon: <RxRocket />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Optimize your project for search robots",
   },
 ]
 

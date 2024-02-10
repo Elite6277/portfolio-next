@@ -13,38 +13,38 @@ export const aboutData = [
       },
     ],
   },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      // {
-      //   title: "Adobe Design Achievement Awards - Finalist",
-      //   stage: "2009 - 2010",
-      // },
-    ],
-  },
+  // {
+  //   title: "awards",
+  //   info: [
+  //     {
+  //       title: "Webby Awards - Honoree",
+  //       stage: "2011 - 2012",
+  //     },
+  //     // {
+  //     //   title: "Adobe Design Achievement Awards - Finalist",
+  //     //   stage: "2009 - 2010",
+  //     // },
+  //   ],
+  // },
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Web Developer & UX/UI Designer - GreenCode company",
+        stage: "2019 - 2024",
       },
-      {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
+      // {
+      //   title: "Web Developer - ",
+      //   stage: "2019 - 2024",
+      // },
     ],
   },
   {
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Web Development - Udemy",
+        stage: "2018",
       },
       // {
       //   title: "Computer Science Diploma - AV Technical Institute",

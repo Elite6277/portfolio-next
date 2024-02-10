@@ -10,18 +10,18 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/Mntn.jpg",
-          link: "/#",
+          path: "/2.png",
+          link: "https://mntn-landing-eta.vercel.app/",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
-          link: "/thumb3.jpg",
+          path: "/3.png",
+          link: "https://portfolio-site-black-ten.vercel.app/",
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
-          link: "/thumb4.jpg",
+          path: "/4.png",
+          link: "https://my-netflix-deploy.vercel.app/",
         },
       ],
     },
@@ -29,24 +29,24 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
-          link: "/thumb4.jpg",
+          path: "/5.png",
+          link: "https://myonline-chat-client.vercel.app/",
         },
-        {
-          title: "title",
-          path: "/thumb1.jpg",
-          link: "/thumb1.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb2.jpg",
-          link: "/thumb2.jpg",
-        },
-        {
-          title: "title",
-          path: "/thumb3.jpg",
-          link: "/thumb3.jpg",
-        },
+        // {
+        //   title: "title",
+        //   path: "/thumb1.jpg",
+        //   link: "/thumb1.jpg",
+        // },
+        // {
+        //   title: "title",
+        //   path: "/thumb2.jpg",
+        //   link: "/thumb2.jpg",
+        // },
+        // {
+        //   title: "title",
+        //   path: "/thumb3.jpg",
+        //   link: "/thumb3.jpg",
+        // },
       ],
     },
   ],
@@ -75,14 +75,14 @@ const WorkSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
+      className="h-[300px] sm:h-[480px]"
     >
       {workSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
             <div
               key={index}
-              className=" grid grid-cols-2 xl:fix gap-4 cursor-pointer"
+              className=" grid grid-cols-2 max-sm:fix gap-4 cursor-pointer"
             >
               {slide.images.map((image, index) => {
                 return (
