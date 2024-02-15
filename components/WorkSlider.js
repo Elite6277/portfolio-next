@@ -10,7 +10,7 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/2.png",
+          path: "/9.png",
           link: "https://mntn-landing-eta.vercel.app/",
         },
         {
@@ -32,16 +32,16 @@ const workSlides = {
           path: "/5.png",
           link: "https://myonline-chat-client.vercel.app/",
         },
-        // {
-        //   title: "title",
-        //   path: "/thumb1.jpg",
-        //   link: "/thumb1.jpg",
-        // },
-        // {
-        //   title: "title",
-        //   path: "/thumb2.jpg",
-        //   link: "/thumb2.jpg",
-        // },
+        {
+          title: "title",
+          path: "/7.png",
+          link: "https://nike-five-beta.vercel.app/",
+        },
+        {
+          title: "title",
+          path: "/8.png",
+          link: "https://hookbank-three.vercel.app/",
+        },
         // {
         //   title: "title",
         //   path: "/thumb3.jpg",

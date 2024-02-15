@@ -62,7 +62,7 @@ const ServiceSlider = () => {
         clickable: true,
       }}
       modules={[FreeMode, Pagination]}
-      className="h-[240px] sm:h-[340px]"
+      className="h-[240px] sm:h-[340px] "
     >
       {serviceData.map((item, index) => {
         return (
@@ -78,9 +78,9 @@ const ServiceSlider = () => {
                 </div>
               </div>
               {/* arrow */}
-              <div className="text-3xl">
+              <a href="/contact" className="text-3xl">
                 <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-100" />
-              </div>
+              </a>
             </div>
           </SwiperSlide>
         )
