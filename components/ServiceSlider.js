@@ -14,6 +14,7 @@ import {
 } from "react-icons/rx"
 
 import { FreeMode, Pagination } from "swiper"
+import Link from "next/link"
 
 // data
 const serviceData = [
@@ -62,7 +63,7 @@ const ServiceSlider = () => {
         clickable: true,
       }}
       modules={[FreeMode, Pagination]}
-      className="h-[240px] sm:h-[340px] "
+      className="h-[240px] sm:h-[340px]"
     >
       {serviceData.map((item, index) => {
         return (
@@ -78,9 +79,9 @@ const ServiceSlider = () => {
                 </div>
               </div>
               {/* arrow */}
-              <a href="/contact" className="text-3xl">
+              <Link href="/contact" className="text-3xl">
                 <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-100" />
-              </a>
+              </Link>
             </div>
           </SwiperSlide>
         )
