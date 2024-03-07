@@ -42,11 +42,11 @@ const workSlides = {
           path: "/8.png",
           link: "https://hookbank-three.vercel.app/",
         },
-        // {
-        //   title: "title",
-        //   path: "/thumb3.jpg",
-        //   link: "/thumb3.jpg",
-        // },
+        {
+          title: "title",
+          path: "/10.png",
+          link: "https://medet-online-shop.vercel.app/",
+        },
       ],
     },
   ],
